@@ -32,6 +32,9 @@ img{
     position: absolute;
     width: 249px;
     height: 82px;
+    background: #E72929;
+    border-radius: 60px;
+    margin-bottom: 20px;
 }
 
 .boutondecouv a{
@@ -41,9 +44,9 @@ img{
     color: #FFFFFF;
 }
 
-
-background: #E72929;
-border-radius: 60px;
+.fb-share-button{
+    margin-right: 30px;
+}
 
 footer{
     background-color: black;
