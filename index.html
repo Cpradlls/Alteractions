@@ -12,9 +12,30 @@
 </head>
 <body>
     <h1>ALTER/ACTIONS</h1>
-    <img src="plaquetteclip.jpg" alt="Plaquette clip Alter/actions" width="200%">
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your share button code -->
+<div class="fb-share-button" 
+data-href="https://www.your-domain.com/your-page.html" 
+data-layout="button_count">
+</div>
+
+    <img src="plaquetteclip.jpg" alt="Plaquette clip Alter/actions" width="40%">
+    <div class="bouton découvrir">
+        <a href="https://www.linkfire.com/">DÉCOUVRIR</a>
+    </div>
     <div class="footer">
         <p>copyright Alter/Actions</p>
+        <p>-</p>
+        <a href="https://www.linkfire.com/">Mentions légales et politiques de confidentialité</a>
     </div>
     
 </body>
