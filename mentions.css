@@ -14,8 +14,9 @@ text-align: center;
 
 .croix {
     background-color: white;
-    color: white;
+   
     float: right;
+    cursor: pointer;
 }
 
 
@@ -24,14 +25,11 @@ text-align: center;
 
 width: 1500px;
 height: 1000px;
-
-
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
-
 background-color: grey;
 
 }
