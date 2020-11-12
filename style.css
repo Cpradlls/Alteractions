@@ -11,7 +11,7 @@ h1{
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 85px;
     margin-left: 0px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -20,9 +20,22 @@ h1{
 
 .contenu{
     display: inline-block;
-    top: 50%;
-    width: 50%;
+    left: 596px;
+    top: 559px;
 }
+
+img{
+    box-shadow: 0px 10px 30px 10px rgba(231, 41, 41, 0.47);
+}
+
+.boutondecouv{
+    position: absolute;
+    width: 249px;
+    height: 82px;
+}
+
+background: #E72929;
+border-radius: 60px;
 
 footer{
     background-color: black;
