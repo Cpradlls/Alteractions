@@ -34,6 +34,14 @@ img{
     height: 82px;
 }
 
+.boutondecouv a{
+    text-decoration: none;
+    font-size: 36px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+
 background: #E72929;
 border-radius: 60px;
 
