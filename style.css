@@ -1,7 +1,7 @@
 body { 
     margin:0;
     padding:0;
-    background: url(visuclip.jpg) no-repeat center fixed; 
+    background: url(visuclipfilter.jpg) no-repeat center fixed; 
     background-size: cover; /* version standardisée */
     font-family: Roboto;
   }
