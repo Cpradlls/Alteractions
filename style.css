@@ -1,3 +1,4 @@
+
 body { 
     margin:0;
     padding:0;
@@ -5,60 +6,66 @@ body {
     background-size: cover; /* version standardisée */
     font-family: Roboto;
   }
-h1{
+
+  h1{
     color: #E72929;
     font-family: Roboto;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 85px;
+    font-size: 580%;
     margin-left: 0px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    display: inline-block;
   }
 
 .contenu{
-    display: inline-block;
-    left: 596px;
-    top: 559px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 img{
     box-shadow: 0px 10px 30px 10px rgba(231, 41, 41, 0.47);
+    margin-bottom: 30px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .boutondecouv{
-    position: absolute;
     width: 249px;
-    height: 82px;
+    margin-left: auto;
+    margin-right : auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
     background: #E72929;
     border-radius: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .boutondecouv a{
     text-decoration: none;
     font-size: 36px;
-    text-decoration-line: underline;
     color: #FFFFFF;
 }
 
-.fb-share-button{
-    margin-right: 30px;
-}
 
 footer{
     background-color: black;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-bottom: Opx; 
-    text-align: center;
 }
 
 footer p{
     color: #CFCFCF;
+    text-align: center;
     
 }
 
