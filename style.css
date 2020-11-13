@@ -1,4 +1,3 @@
-
 body { 
     margin:0;
     padding:0;
@@ -6,69 +5,142 @@ body {
     background-size: cover; /* version standardisée */
     font-family: Roboto;
   }
-
-  h1{
-    color: #E72929;
-    font-family: Roboto;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 580%;
-    margin-left: 0px;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-  }
-
-.contenu{
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    margin-right: 60px;
-}
-
-img{
-    box-shadow: 0px 10px 30px 10px rgba(231, 41, 41, 0.47);
-    margin-bottom: 30px;
-    width: 300px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.boutondecouv{
-    width: 249px;
-    margin-left: auto;
-    margin-right : auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background: #E72929;
-    border-radius: 60px;
-    margin-bottom: 30px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.boutondecouv a{
-    text-decoration: none;
-    font-size: 36px;
-    color: #FFFFFF;
-}
-
-
-footer{
-    background-color: black;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: Opx; 
-}
-
-footer p{
-    color: #CFCFCF;
-    text-align: center;
+  @media screen and (max-width: 767px){
+    h1{
+        color: #E72929;
+        font-family: Roboto;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 580%;
+        margin-left: 0px;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+      }
     
-}
-
-footer a{
-    text-decoration: none;
-    color: #CFCFCF;
-}
+    .contenu{
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        margin-right: 60px;
+    }
+    
+    img{
+        box-shadow: 0px 10px 30px 10px rgba(231, 41, 41, 0.47);
+        margin-bottom: 30px;
+        width: 150px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .boutondecouv{
+        width: 140px;
+        margin-left: auto;
+        margin-right : auto;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        background: #E72929;
+        border-radius: 60px;
+        margin-bottom: 30px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .boutondecouv a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    
+    
+    footer{
+        background-color: black;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-bottom: Opx; 
+    }
+    
+    footer p{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 10px;
+        color: #CFCFCF;
+        text-align: center;
+        
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: #CFCFCF;
+    }
+    
+  }
+  @media screen and (min-width: 768px){
+    h1{
+        color: #E72929;
+        font-family: Roboto;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 570%;
+        margin-left: 0px;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+      }
+    
+    .contenu{
+        position: absolute;
+        top: 20%;
+        left: 39%;
+        margin-right: 60px;
+    }
+    
+    img{
+        box-shadow: 0px 10px 30px 10px rgba(231, 41, 41, 0.47);
+        margin-bottom: 30px;
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .boutondecouv{
+        width: 249px;
+        margin-left: auto;
+        margin-right : auto;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background: #E72929;
+        border-radius: 60px;
+        margin-bottom: 30px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .boutondecouv a{
+        text-decoration: none;
+        font-size: 36px;
+        color: #FFFFFF;
+    }
+    
+    
+    footer{
+        background-color: black;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-bottom: Opx; 
+    }
+    
+    footer p{
+        color: #CFCFCF;
+        text-align: center;
+        
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: #CFCFCF;
+    }
+    
+  }
